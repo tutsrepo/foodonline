@@ -1,0 +1,7 @@
+Create virtual environment for python
+==========================================
+1) python -m venv [environment_name]  - you can give env any name you want
+
+2) source env/Scripts/activate
+
+3) django-admin startproject foodonline_main .
