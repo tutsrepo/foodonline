@@ -1,7 +1,23 @@
-Create virtual environment for python
+Steps involved in creating django project
 ==========================================
-1) python -m venv [environment_name]  - you can give env any name you want
+1) Create a virtual environment  python -m venv [environment_name]  - you can give env any name you want
 
-2) source env/Scripts/activate
+2) Activate python environment - source env/Scripts/activate
 
-3) django-admin startproject foodonline_main .
+3) Create a new project - django-admin startproject foodonline_main .
+
+4) See the django home page - python migrate.py runserver
+
+5) Apply migrations - python manage.py migrate
+
+6) Create a Superuser - python manage.py createsuperuser
+
+Git Commands
+=============
+echo "# foodonline" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tutsrepo/foodonline.git
+git push -u origin main
